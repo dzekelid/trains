@@ -12,8 +12,8 @@ tags:
 - Marketplace
 - Hotel
 - Airlines
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/trains/master/_listings/amadeus/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Trains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trains/master/_listings/amadeus/trains-schedule-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trains/master/_listings/amadeus/trains-extensive-search-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
