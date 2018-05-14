@@ -28,7 +28,38 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/trains/master/_listings/amadeus/trains-schedule-search-get.md
+- name: Amadeus Get Trains Extensive Search
+  description: "This API allows you to search trains availability and prices for a
+    single day or date range. It's based on our Rail Instant Search technology, providing
+    you with immediate results from our rail search cache.\n\nThis API has content
+    from SNCF (French trains).\n            \nThe content is also restricted to single-leg
+    trips - where a single train takes you directly from the origin to the destination."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
+  humanURL: https://amadeus.com
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Trains
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trains/master/_listings/amadeus/trains-extensive-search-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trains/master/_listings/amadeus/trains-extensive-search-get-postman.md
 x-common:
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/amadeus
+- type: x-documentation
+  url: https://sandbox.amadeus.com/api-catalog
+- type: x-github
+  url: https://github.com/AmadeusITGroup
+- type: x-privacy-policy
+  url: http://www.amadeus.com/web/amadeus/en_1A-corporate/Amadeus-Home/Amadeus_IT_Group_SA-Legal-notices-2014/1319560218660-Page-AMAD_Detail_PopUp_Ppal?assetid=1319607040997&assettype=DataProtection_C
+- type: x-sandbox
+  url: https://sandbox.amadeus.com
+- type: x-terms-of-service
+  url: http://www.amadeus.com/web/amadeus/en_1A-corporate/Amadeus-Home/Amadeus_IT_Group_SA-Legal-notices-2014/1319560218660-Page-AMAD_Detail_PopUp_Ppal?assetid=1319607040997&assettype=DataProtection_C
+- type: x-twitter
+  url: https://twitter.com/amadeusinnov
+- type: x-website
+  url: https://amadeus.com
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
 - type: x-documentation
